@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="https://formspree.io/f/mannlgyq" method="POST">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name" name="Name" required><br><br>
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" name="Email" required><br><br>
+            <label>Age</label>
+            <input type="number" placeholder="Enter your Age" name="Age" required><br><br>
+            <label>Contact Number</label>
+            <input type="tel" placeholder="Enter your Contact Number" name="ContactNumber" required><br><br>
+            <label>Date of Birth</label>
+            <input type="date" name="DOB" required><br><br>
+            <label>Passed out Year</label>
+            <input type="number" placeholder="Enter your Passed out Year" name="PassedOutYear" required><br><br>
+            <label>Upload your Image</label><br>
+            <input type="file" name="Image"><br><br>
+            <label>Gender</label><br>
+            <input type="radio" value="Male" name="Gender" required>Male<br>
+            <input type="radio" value="Female" name="Gender">Female<br>
+            <input type="radio" value="Others" name="Gender">Others<br><br>
+            <label>Programming Languages Known</label><br>
+            <input type="checkbox" value="Python" name="Programming Lang">Python<br>
+            <input type="checkbox" value="Java" name="Programming Lang">Java<br>
+            <input type="checkbox" value="C++" name="Programming Lang">C++<br><br>
+            <label>Select Your Favorite Color</label><br>
+            <input type="color" name="FavoriteColor"><br><br>
+            <label>Provide your LinkedIn profile link</label>
+            <input type="url" name="LinkedInProfile" placeholder="https://linkedin.com/in/your-profile"><br><br>
+            <label>About</label>
+            <textarea name="About" placeholder="Tell us about yourself"></textarea><br><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
